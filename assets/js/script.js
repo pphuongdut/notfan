@@ -9,17 +9,13 @@ intro_video.addEventListener('click', function () {
     document.body.style.overflowY = 'auto';
 });
 
-// reload, scroll to top
-window.onbeforeunload = function () {
+window.addEventListener('beforeunload', function (event) {
+    document.body.style.height = '100vh';
+    main_content.style.display = 'none';
     window.scrollTo(0, 0);
     // reset style
     intro_video.style.display = 'block';
     main_content.style.opacity = 0;
     document.body.style.height = '100vh';
     document.body.style.overflowY = 'hidden';
-};
-
-window.onload = function () {
-    // Scroll to the top of the page
-    window.scrollTo(0, 0);
-};
+});
