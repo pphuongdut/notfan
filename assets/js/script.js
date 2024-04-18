@@ -18,3 +18,8 @@ window.onbeforeunload = function () {
     document.body.style.height = '100vh';
     document.body.style.overflowY = 'hidden';
 };
+
+window.onload = function () {
+    // Scroll to the top of the page
+    window.scrollTo(0, 0);
+};
