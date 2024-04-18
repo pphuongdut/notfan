@@ -28,7 +28,7 @@
             ></video>
         </div>
 
-        <div id="leaves" class="absolute w-screen top-0 left-0">
+        <div id="leaves" class="fixed w-screen top-0 left-0">
             <i><img src="./assets/img/notcoin.png" alt="" srcset="" /></i>
             <i><img src="./assets/img/notcoin.png" alt="" srcset="" /></i>
             <i><img src="./assets/img/notcoin.png" alt="" srcset="" /></i>
@@ -114,186 +114,205 @@
                     </div>
                 </div>
             </div>
+            <div class="z-50 bg-black relative py-20">
+                <div
+                    class="section flex flex-col items-center gap-10 w-4/5 m-auto"
+                >
+                    <img
+                        class="w-4/5 animate__fadeInUp animate__animated wow"
+                        src="./assets/img/slide2/slide2-name.png"
+                        alt=""
+                        srcset=""
+                    />
 
-            <div
-                class="section flex flex-col items-center gap-10 my-20 w-4/5 m-auto"
-            >
-                <img
-                    class="w-4/5 animate__fadeInUp animate__animated wow"
-                    src="./assets/img/slide2/slide2-name.png"
-                    alt=""
-                    srcset=""
-                />
-
-                <div class="flex">
-                    <div class="w-1/4">
-                        <img
-                            class="w-full animate__animated wow animate__fadeInLeft"
-                            src="./assets/img/slide2/people.png"
-                            alt=""
-                            srcset=""
-                        />
-                    </div>
-                    <div class="w-full md:w-3/4 flex flex-col gap-2">
-                        <div class="flex flex-col md:flex-row gap-4">
+                    <div class="flex">
+                        <div class="w-1/4">
                             <img
-                                src="./assets/img/slide2/Cờ.gif"
+                                class="w-full animate__animated wow animate__fadeInLeft"
+                                src="./assets/img/slide2/people.png"
                                 alt=""
                                 srcset=""
-                                class="w-1/4 relative -left-2 md:-left-5 wow animate__flipInX animate__animated"
                             />
-                            <div class="flex flex-col gap-8">
+                        </div>
+                        <div class="w-full md:w-3/4 flex flex-col gap-2">
+                            <div class="flex flex-col md:flex-row gap-4">
                                 <img
-                                    src="./assets/img/slide2/arrow.png"
+                                    src="./assets/img/slide2/Cờ.gif"
                                     alt=""
                                     srcset=""
-                                    class="w-20 animate__shakeY animate__animated animate__infinite animate__slow"
+                                    class="w-1/4 relative -left-2 md:-left-5 wow animate__flipInX animate__animated"
                                 />
-                                <span class="lazy-dog text-2xl">
-                                    NOTFAN or NOT FAN?
-                                </span>
+                                <div class="flex flex-col gap-8">
+                                    <img
+                                        src="./assets/img/slide2/arrow.png"
+                                        alt=""
+                                        srcset=""
+                                        class="w-20 animate__shakeY animate__animated animate__infinite animate__slow"
+                                    />
+                                    <span class="lazy-dog text-2xl">
+                                        NOTFAN or NOT FAN?
+                                    </span>
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col text-4xl p-4 md:p-6 wow animate__fadeInRight animate__animated"
+                            >
+                                <p class="lazy-dog">
+                                    $NOTFAN is a meme that represents the
+                                    dedicated fan base of Notcoin, a gaming
+                                    project on the Ton blockchain, which was
+                                    created on January 1, 2024.
+                                </p>
+                                <p class="lazy-dog">
+                                    The game allows users to mine virtual
+                                    currency, which can be traded for valuable
+                                    tokens.
+                                </p>
+                                <p class="lazy-dog">
+                                    Notcoin is incorporated into the Telegram
+                                    app and is connected to a token being
+                                    introduced on The Open Network (TON).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative py-20">
+                <div class="section flex flex-col gap-4 md:gap-10">
+                    <img
+                        src="./assets/img/slide2/how to buy.png"
+                        alt=""
+                        srcset=""
+                        class="w-2/5 mx-auto animate__fadeInUp animate__animated wow relative z-50"
+                    />
+                    <div
+                        class="box-container w-4/5 px-4 lg:px-20 m-auto flex flex-col lg:flex-row gap-10 items-center justify-around"
+                    >
+                        <div
+                            class="box-item animate__flipInX animate__animated wow"
+                        >
+                            <div class="flip-box">
+                                <div
+                                    class="flip-box-front text-center"
+                                    style="
+                                        background-image: url('./assets/img/flip/1.png');
+                                    "
+                                ></div>
+                                <div
+                                    class="flip-box-back text-center"
+                                    style="
+                                        background-image: url('./assets/img/flip/Mat\ sau\ của\ 1.png');
+                                    "
+                                ></div>
                             </div>
                         </div>
                         <div
-                            class="flex flex-col text-4xl p-4 md:p-6 wow animate__fadeInRight animate__animated"
+                            class="box-item animate__flipInX animate__animated wow"
+                            data-wow-delay="0.5s"
                         >
-                            <p class="lazy-dog">
-                                $NOTFAN is a meme that represents the dedicated
-                                fan base of Notcoin, a gaming project on the Ton
-                                blockchain, which was created on January 1,
-                                2024.
-                            </p>
-                            <p class="lazy-dog">
-                                The game allows users to mine virtual currency,
-                                which can be traded for valuable tokens.
-                            </p>
-                            <p class="lazy-dog">
-                                Notcoin is incorporated into the Telegram app
-                                and is connected to a token being introduced on
-                                The Open Network (TON).
-                            </p>
+                            <div class="flip-box">
+                                <div
+                                    class="flip-box-front text-center"
+                                    style="
+                                        background-image: url('./assets/img/flip/2.png');
+                                    "
+                                ></div>
+                                <div
+                                    class="flip-box-back text-center"
+                                    style="
+                                        background-image: url('./assets/img/flip/Mặt\ sau\ của\ 2.png');
+                                    "
+                                ></div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section flex flex-col gap-4 md:gap-10 my-20">
-                <img
-                    src="./assets/img/slide2/how to buy.png"
-                    alt=""
-                    srcset=""
-                    class="w-2/5 mx-auto animate__fadeInUp animate__animated wow"
-                />
-                <div
-                    class="box-container w-4/5 px-4 lg:px-20 m-auto flex flex-col lg:flex-row gap-10 items-center justify-around"
-                >
-                    <div
-                        class="box-item animate__flipInX animate__animated wow"
-                    >
-                        <div class="flip-box">
-                            <div
-                                class="flip-box-front text-center"
-                                style="
-                                    background-image: url('./assets/img/flip/1.png');
-                                "
-                            ></div>
-                            <div
-                                class="flip-box-back text-center"
-                                style="
-                                    background-image: url('./assets/img/flip/Mat\ sau\ của\ 1.png');
-                                "
-                            ></div>
-                        </div>
-                    </div>
-                    <div
-                        class="box-item animate__flipInX animate__animated wow"
-                        data-wow-delay="0.5s"
-                    >
-                        <div class="flip-box">
-                            <div
-                                class="flip-box-front text-center"
-                                style="
-                                    background-image: url('./assets/img/flip/2.png');
-                                "
-                            ></div>
-                            <div
-                                class="flip-box-back text-center"
-                                style="
-                                    background-image: url('./assets/img/flip/Mặt\ sau\ của\ 2.png');
-                                "
-                            ></div>
-                        </div>
-                    </div>
-                    <div
-                        class="box-item animate__flipInX animate__animated wow"
-                        data-wow-delay="1s"
-                    >
-                        <div class="flip-box">
-                            <div
-                                class="flip-box-front text-center filter-"
-                                style="
-                                    background-image: url('./assets/img/flip/3.svg');
-                                "
-                            ></div>
-                            <div
-                                class="flip-box-back text-center"
-                                style="
-                                    background-image: url('./assets/img/flip/mặt\ sau\ 3.svg');
-                                "
-                            ></div>
+                        <div
+                            class="box-item animate__flipInX animate__animated wow"
+                            data-wow-delay="1s"
+                        >
+                            <div class="flip-box">
+                                <div
+                                    class="flip-box-front text-center filter-"
+                                    style="
+                                        background-image: url('./assets/img/flip/3.svg');
+                                    "
+                                ></div>
+                                <div
+                                    class="flip-box-back text-center"
+                                    style="
+                                        background-image: url('./assets/img/flip/mặt\ sau\ 3.svg');
+                                    "
+                                ></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="section flex flex-col gap-10 my-20">
-                <img
-                    class="w-1/5 m-auto animate__fadeInUp animate__animated wow"
-                    src="./assets/img/tokenomic/title.png"
-                    alt=""
-                    srcset=""
-                />
-                <div
-                    class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 w-4/5 m-auto"
-                >
+            <div class="z-50 bg-black relative py-20">
+                <div class="section flex flex-col gap-10">
+                    <img
+                        class="w-1/5 m-auto animate__fadeInUp animate__animated wow"
+                        src="./assets/img/tokenomic/title.png"
+                        alt=""
+                        srcset=""
+                    />
                     <div
-                        class="flex flex-col gap-8 items-center justify-start p-4 wow animate__lightSpeedInLeft animate__animated"
+                        class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 w-4/5 m-auto"
                     >
-                        <img
-                            src="./assets/img/tokenomic/Group 7.png"
-                            alt=""
-                            class="transition-all hover:scale-[110%]"
-                        />
-                        <img src="./assets/img/tokenomic/Group 3.png" alt="" />
-                    </div>
-                    <div
-                        class="flex flex-col gap-8 items-center justify-start p-4 wow animate__lightSpeedInLeft animate__animated"
-                    >
-                        <img
-                            src="./assets/img/tokenomic/Group 8.png"
-                            alt=""
-                            class="transition-all hover:scale-[110%]"
-                        />
-                        <img src="./assets/img/tokenomic/Group 4.png" alt="" />
-                    </div>
-                    <div
-                        class="flex flex-col gap-8 items-center justify-start p-4 wow animate__lightSpeedInRight animate__animated"
-                    >
-                        <img
-                            src="./assets/img/tokenomic/Group 9.png"
-                            alt=""
-                            class="transition-all hover:scale-[110%]"
-                        />
-                        <img src="./assets/img/tokenomic/Group 5.png" alt="" />
-                    </div>
-                    <div
-                        class="flex flex-col gap-8 items-center justify-start p-4 wow animate__lightSpeedInRight animate__animated"
-                    >
-                        <img
-                            src="./assets/img/tokenomic/Group 10.png"
-                            alt=""
-                            class="transition-all hover:scale-[110%]"
-                        />
-                        <img src="./assets/img/tokenomic/Group 6.png" alt="" />
+                        <div
+                            class="flex flex-col gap-8 items-center justify-start p-4 wow animate__lightSpeedInLeft animate__animated"
+                        >
+                            <img
+                                src="./assets/img/tokenomic/Group 7.png"
+                                alt=""
+                                class="transition-all hover:scale-[110%]"
+                            />
+                            <img
+                                src="./assets/img/tokenomic/Group 3.png"
+                                alt=""
+                            />
+                        </div>
+                        <div
+                            class="flex flex-col gap-8 items-center justify-start p-4 wow animate__lightSpeedInLeft animate__animated"
+                        >
+                            <img
+                                src="./assets/img/tokenomic/Group 8.png"
+                                alt=""
+                                class="transition-all hover:scale-[110%]"
+                            />
+                            <img
+                                src="./assets/img/tokenomic/Group 4.png"
+                                alt=""
+                            />
+                        </div>
+                        <div
+                            class="flex flex-col gap-8 items-center justify-start p-4 wow animate__lightSpeedInRight animate__animated"
+                        >
+                            <img
+                                src="./assets/img/tokenomic/Group 9.png"
+                                alt=""
+                                class="transition-all hover:scale-[110%]"
+                            />
+                            <img
+                                src="./assets/img/tokenomic/Group 5.png"
+                                alt=""
+                            />
+                        </div>
+                        <div
+                            class="flex flex-col gap-8 items-center justify-start p-4 wow animate__lightSpeedInRight animate__animated"
+                        >
+                            <img
+                                src="./assets/img/tokenomic/Group 10.png"
+                                alt=""
+                                class="transition-all hover:scale-[110%]"
+                            />
+                            <img
+                                src="./assets/img/tokenomic/Group 6.png"
+                                alt=""
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
