@@ -22,9 +22,10 @@
 }
 
 body {
-    background: black;
     color: white;
-    overflow-x: hidden;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
 }
 
 .lazy-dog {
@@ -32,7 +33,8 @@ body {
 }
 
 .main-content {
-    display: none;
+    opacity: 0;
+    background: black;
 }
 
 .text-center {
